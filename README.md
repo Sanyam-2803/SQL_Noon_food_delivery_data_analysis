@@ -155,7 +155,11 @@ WHERE order_no%3=0 AND DATE(Placed_at)= CURRENT_DATE() ;
 ![100](https://github.com/user-attachments/assets/3cda7446-91f9-4ef0-ad98-4485196fe4df)
 
 
- 
+💡 Business Importance  
+
+💰 Drives Higher Customer Lifetime Value (CLTV)  
+🤝 Personalization Builds Loyalty and Brand Affinity  
+
 
 
 
