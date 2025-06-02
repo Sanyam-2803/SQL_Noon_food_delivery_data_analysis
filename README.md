@@ -78,12 +78,11 @@ HAVING COUNT(*)=1 ;
 
 ![31](https://github.com/user-attachments/assets/505cdbfa-51db-40ec-9ee0-bc4e76e8581c)
 
-💡 Business Importance  
+💡 Business Importance
 
-
-
-
-
+⚠️ Early Churn Detection  
+💰 Wasted Acquisition Spend  
+🧠 Customer Experience & Product Feedback  
 
 🔶 𝐋𝐢𝐬𝐭 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐰𝐢𝐭𝐡 𝐧𝐨 𝐨𝐫𝐝𝐞𝐫 𝐢𝐧 𝐭𝐡𝐞 𝐥𝐚𝐬𝐭 7 𝐝𝐚𝐲𝐬 𝐛𝐮𝐭 𝐰𝐞𝐫𝐞 𝐚𝐜𝐪𝐮𝐢𝐫𝐞𝐝 1 𝐦𝐨𝐧𝐭𝐡 𝐚𝐠𝐨 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞𝐢𝐫 𝐟𝐢𝐫𝐬𝐭 𝐨𝐫𝐝𝐞𝐫𝐬 𝐨𝐧 𝐏𝐫𝐨𝐦𝐨
 
@@ -98,6 +97,11 @@ WHERE DATE(latest_order_date)< CURDATE()-INTERVAL 7 DAY AND DATE(first_order_dat
 ![32](https://github.com/user-attachments/assets/8c3ef447-1b01-4be8-b97a-92c7a502edd3)
 
 
+💡 Business Importance  
+
+⚠️ Early Churn Risk Identification  
+💰 Measuring Promotion Effectiveness  
+🎯 Optimize Customer Acquisition Strategy  
 
 🔶  𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐰𝐡𝐨 𝐩𝐥𝐚𝐜𝐞𝐝 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 1 𝐨𝐫𝐝𝐞𝐫 𝐚𝐧𝐝 𝐚𝐥𝐥 𝐭𝐡𝐞𝐢𝐫 𝐨𝐫𝐝𝐞𝐫 𝐨𝐧 𝐏𝐫𝐨𝐦𝐨 𝐜𝐨𝐝𝐞
 
@@ -108,6 +112,13 @@ HAVING COUNT(*)>1 and COUNT(*)= COUNT(Promo_code_Name) ;
 
 
 ![41](https://github.com/user-attachments/assets/22551916-bfa4-421e-b0e5-3f9b5293b82d)
+
+
+💡 Business Importance   
+
+💰 Low Margin, High Dependent Segment  
+🎯 Customer Behavior Segmentation  
+🚦 Retention Strategy Optimization  
 
 🔶  𝐖𝐡𝐚𝐭 % 𝐨𝐟 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐰𝐞𝐫𝐞 𝐨𝐫𝐠𝐚𝐧𝐢𝐜𝐚𝐥𝐥𝐲 𝐚𝐜𝐪𝐮𝐢𝐫𝐞𝐝 𝐢𝐧 𝐉𝐚𝐧 2025 (𝐢.𝐞 𝐩𝐥𝐚𝐜𝐞𝐝 𝐭𝐡𝐞𝐢𝐫 𝐟𝐢𝐫𝐬𝐭 𝐨𝐫𝐝𝐞𝐫 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐫𝐨𝐦𝐨 𝐜𝐨𝐝𝐞)
 
@@ -123,6 +134,14 @@ FROM cte;
 
 
 ![50](https://github.com/user-attachments/assets/09bcc22b-aa07-414e-9d0b-1f6f3b5f6aa2)
+
+💡 Business Importance  
+
+🎯 Milestone-Based Engagement Boosts Retention  
+🤝 Personalization Builds Loyalty and Brand Affinity  
+💰 Drives Higher Customer Lifetime Value (CLTV)  
+
+
 
 
 🔶  𝐆𝐫𝐨𝐰𝐭𝐡 𝐓𝐞𝐚𝐦 𝐢𝐬 𝐩𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 𝐭𝐫𝐢𝐠𝐠𝐞𝐫 𝐭𝐡𝐚𝐭 𝐰𝐢𝐥𝐥 𝐭𝐚𝐫𝐠𝐞𝐭 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐚𝐟𝐭𝐞𝐫 𝐭𝐡𝐞𝐢𝐫 𝐞𝐯𝐞𝐫𝐲 𝐭𝐡𝐢𝐫𝐝 𝐨𝐫𝐝𝐞𝐫 𝐰𝐢𝐭𝐡 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞𝐝 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐭𝐡𝐞𝐲 𝐚𝐬𝐤𝐞𝐝 𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 𝐪𝐮𝐞𝐫𝐲 𝐟𝐨𝐫 𝐭𝐡𝐢𝐬
