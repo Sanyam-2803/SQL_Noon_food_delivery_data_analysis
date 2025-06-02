@@ -25,14 +25,6 @@ Orders table contains Order_ id, Customer_ code, Placed_ at, Restaurant_ id, Cui
 
 ![Food_Orders table](https://github.com/user-attachments/assets/05f25871-003e-49b2-b923-dba64d2d51f3)
 
-
-
-
-
-
-
-
-
 🎯 𝕂𝕖𝕪 𝔹𝕦𝕤𝕚𝕟𝕖𝕤𝕤 𝕊ℚ𝕃 𝕢𝕦𝕖𝕣𝕚𝕖𝕤 / 𝕃𝕖𝕧𝕖𝕝-𝔸𝕕𝕧𝕒𝕟𝕔𝕖𝕕  
 
 
@@ -48,6 +40,12 @@ WHERE orders_rnk < = 2 ;
 
 ![Orders12](https://github.com/user-attachments/assets/46d77a7c-cf24-46c4-a204-190cfb0e450f)
 
+💡 Business Importance    
+
+🎯 Enhanced Customer Experience    
+📈 Data-Driven Marketing and Promotion    
+💰 Revenue Optimization    
+
 
 🔶  𝐃𝐚𝐢𝐥𝐲 𝐧𝐞𝐰 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫 𝐜𝐨𝐮𝐧𝐭 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐥𝐚𝐮𝐧𝐜𝐡 𝐝𝐚𝐭𝐞 (𝐇𝐨𝐰 𝐦𝐚𝐧𝐲 𝐧𝐞𝐰 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐚𝐫𝐞 𝐰𝐞 𝐚𝐜𝐪𝐮𝐢𝐫𝐢𝐧𝐠 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲)
 
@@ -60,7 +58,11 @@ GROUP BY first_order_date ;
 
 ![21](https://github.com/user-attachments/assets/9ca5ec0f-c666-4fbd-bf84-9dcab0589305)
 
+💡 Business Importance  
 
+📈 Core Indicator of Business Growth  
+💰 Optimize Customer Acquisition Cost (CAC)  
+🎯 Real-Time Marketing and Campaign Evaluation  
 
 
 🔶 𝐂𝐨𝐮𝐧𝐭 𝐨𝐟 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐮𝐬𝐞𝐫𝐬 𝐰𝐡𝐨 𝐰𝐞𝐫𝐞 𝐚𝐜𝐪𝐮𝐢𝐫𝐞𝐝 𝐢𝐧 𝐉𝐚𝐧 2025 𝐚𝐧𝐝 𝐨𝐧𝐥𝐲 𝐩𝐥𝐚𝐜𝐞𝐝 𝐨𝐧𝐞 𝐨𝐫𝐝𝐞𝐫 in Jan 2025 𝐨𝐫𝐝𝐞𝐫 𝐚𝐧𝐝 𝐝𝐢𝐝𝐧'𝐭 𝐩𝐥𝐚𝐜𝐞𝐝 𝐚𝐧𝐲 𝐨𝐭𝐡𝐞𝐫 𝐨𝐫𝐝𝐞𝐫  
@@ -75,6 +77,7 @@ HAVING COUNT(*)=1 ;
 
 
 ![31](https://github.com/user-attachments/assets/505cdbfa-51db-40ec-9ee0-bc4e76e8581c)
+
 
 
 
